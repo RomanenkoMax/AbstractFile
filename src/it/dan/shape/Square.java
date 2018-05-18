@@ -1,6 +1,6 @@
 package it.dan.shape;
 
-public class Square implements Shape{
+public class Square extends AbstractShape{
 
 	int side;
 	

@@ -1,6 +1,6 @@
 package it.dan.shape;
 
-public class Triangle implements Shape {
+public class Triangle extends AbstractShape {
 
 	int a, b, c;
 

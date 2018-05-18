@@ -1,6 +1,6 @@
 package it.dan.shape;
 
-public class Circle implements Shape {
+public class Circle extends AbstractShape {
 	
 	int radius;
 	
