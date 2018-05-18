@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE body [
+<!ELEMENT public it.dan.shape.Square (constructor*, method*, field*)>
+<!ELEMENT constructor (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT field (#PCDATA)>
+<!ATTLIST constructor
+      public it.dan.shape.Square(int);>
+<!ATTLIST method
+      public double getArea();>
+<!ATTLIST field
+      int side;
+]>
+<body>
+<it.dan.shape.Square>
+<method> result = 400.0 </method>
+<field>side = 20 </field>
+</it.dan.shape.Square>
+</body>
+
+
+<?xml version="1.0"?>
+<!DOCTYPE body [
+<!ELEMENT public it.dan.shape.Square (constructor*, method*, field*)>
+<!ELEMENT constructor (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT field (#PCDATA)>
+<!ATTLIST constructor
+      public it.dan.shape.Square(int);>
+<!ATTLIST method
+      public double getArea();>
+<!ATTLIST field
+      int side;
+]>
+<body>
+<it.dan.shape.Square>
+<method> result = 100.0 </method>
+<field>side = 10 </field>
+</it.dan.shape.Square>
+</body>
+
+
+<?xml version="1.0"?>
+<!DOCTYPE body [
+<!ELEMENT public it.dan.shape.Square (constructor*, method*, field*)>
+<!ELEMENT constructor (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT field (#PCDATA)>
+<!ATTLIST constructor
+      public it.dan.shape.Square(int);>
+<!ATTLIST method
+      public double getArea();>
+<!ATTLIST field
+      int side;
+]>
+<body>
+<it.dan.shape.Square>
+<method> result = 225.0 </method>
+<field>side = 15 </field>
+</it.dan.shape.Square>
+</body>
+
+

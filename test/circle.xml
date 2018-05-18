@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!DOCTYPE body [
+<!ELEMENT public it.dan.shape.Circle (constructor*, method*, field*)>
+<!ELEMENT constructor (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT field (#PCDATA)>
+<!ATTLIST constructor
+      public it.dan.shape.Circle(int);>
+<!ATTLIST method
+      public double getArea();>
+<!ATTLIST field
+      int radius;
+]>
+<body>
+<it.dan.shape.Circle>
+<method> result = 1256.6370614359173 </method>
+<field>radius = 20 </field>
+</it.dan.shape.Circle>
+</body>
+
+
+<?xml version="1.0"?>
+<!DOCTYPE body [
+<!ELEMENT public it.dan.shape.Circle (constructor*, method*, field*)>
+<!ELEMENT constructor (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT field (#PCDATA)>
+<!ATTLIST constructor
+      public it.dan.shape.Circle(int);>
+<!ATTLIST method
+      public double getArea();>
+<!ATTLIST field
+      int radius;
+]>
+<body>
+<it.dan.shape.Circle>
+<method> result = 314.1592653589793 </method>
+<field>radius = 10 </field>
+</it.dan.shape.Circle>
+</body>
+
+
+<?xml version="1.0"?>
+<!DOCTYPE body [
+<!ELEMENT public it.dan.shape.Circle (constructor*, method*, field*)>
+<!ELEMENT constructor (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT field (#PCDATA)>
+<!ATTLIST constructor
+      public it.dan.shape.Circle(int);>
+<!ATTLIST method
+      public double getArea();>
+<!ATTLIST field
+      int radius;
+]>
+<body>
+<it.dan.shape.Circle>
+<method> result = 1963.4954084936207 </method>
+<field>radius = 25 </field>
+</it.dan.shape.Circle>
+</body>
+
+

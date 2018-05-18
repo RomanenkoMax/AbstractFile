@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!DOCTYPE body [
+<!ELEMENT public it.dan.shape.Triangle (constructor*, method*, field*)>
+<!ELEMENT constructor (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT field (#PCDATA)>
+<!ATTLIST constructor
+      public it.dan.shape.Triangle(int, int, int);>
+<!ATTLIST method
+      public static boolean verify(int, int, int);
+      public double getArea();>
+<!ATTLIST field
+      int a;
+      int b;
+      int c;
+]>
+<body>
+<it.dan.shape.Triangle>
+<method> result = 28.284271247461902 </method>
+<field>a = 15 </field>
+<field>b = 11 </field>
+<field>c = 6 </field>
+</it.dan.shape.Triangle>
+</body>
+
+
+<?xml version="1.0"?>
+<!DOCTYPE body [
+<!ELEMENT public it.dan.shape.Triangle (constructor*, method*, field*)>
+<!ELEMENT constructor (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT field (#PCDATA)>
+<!ATTLIST constructor
+      public it.dan.shape.Triangle(int, int, int);>
+<!ATTLIST method
+      public static boolean verify(int, int, int);
+      public double getArea();>
+<!ATTLIST field
+      int a;
+      int b;
+      int c;
+]>
+<body>
+<it.dan.shape.Triangle>
+<method> result = 29.93325909419153 </method>
+<field>a = 12 </field>
+<field>b = 10 </field>
+<field>c = 6 </field>
+</it.dan.shape.Triangle>
+</body>
+
+
+<?xml version="1.0"?>
+<!DOCTYPE body [
+<!ELEMENT public it.dan.shape.Triangle (constructor*, method*, field*)>
+<!ELEMENT constructor (#PCDATA)>
+<!ELEMENT method (#PCDATA)>
+<!ELEMENT field (#PCDATA)>
+<!ATTLIST constructor
+      public it.dan.shape.Triangle(int, int, int);>
+<!ATTLIST method
+      public static boolean verify(int, int, int);
+      public double getArea();>
+<!ATTLIST field
+      int a;
+      int b;
+      int c;
+]>
+<body>
+<it.dan.shape.Triangle>
+<method> result = 24.0 </method>
+<field>a = 10 </field>
+<field>b = 8 </field>
+<field>c = 6 </field>
+</it.dan.shape.Triangle>
+</body>
+
+
